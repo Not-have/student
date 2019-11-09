@@ -1,0 +1,44 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,td,input,textarea,fieldset,legend{
+	margin:0;
+	padding:0;
+}
+ul,ol,li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	/* vertical-align: top; */
+	display:block;
+	border:none;/* 去掉IE浏览器下，图片的三像素 */
+}
+body{
+	font-family:"microsoft yahei";/* 微软雅黑,做移动端的时候 不要设置字体类型 */
+	font-size:16px;/*字体大小   也可以不设置*/
+}
+input,textarea,select,area{
+	outline:none;
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-weight: normal;
+}
+i,em{
+	font-style: normal;
+}
+b{
+	font-weight:normal;
+}
+/*-----------------------------------------------------------------------------------------*/
+/*.clearfix:after{
+	content: "";
+	display: block; 
+	clear: both; 
+	height: 0; 
+	overflow: hidden; 
+	visibility: hidden;
+}
+.clearfix{
+	zoom:1;
+}*/
+

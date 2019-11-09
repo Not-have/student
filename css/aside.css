@@ -1,0 +1,424 @@
+/* 测边的粘性定位 */
+.aside .aside_one{
+    width:55px;
+    height:180px;
+    position:fixed;
+    top:54%;
+    right:0;
+    padding-top: 10px;
+    background: #fff;
+    box-shadow: 0 0 5px #ccc;
+	color: red;
+}
+.aside_one li:nth-child(1){
+    width: 55px;
+    height:50px;
+   
+}
+.aside_one li:nth-child(2){
+    width: 55px;
+    height:50px;
+    padding-top: 10px;
+}
+.aside_one li:nth-child(3){
+    width: 55px;
+    height:50px;
+    padding-top: 10px;
+}
+.icon-grzx,.icon-kefu,.icon-gwc{
+    display: block;
+    font-size:25px;
+    width:55px;
+    height:25px;
+    text-align: center;
+
+}
+.icon-gwc{
+    font-size:40px !important;
+}
+.shop{
+    padding-top:5px;
+}
+.aside_one li a{
+    color: #757575;
+}
+.aside_one li a i{
+    display: block;
+    font-size: 12px;
+    width:55px;
+    height:25px;
+    line-height:25px; 
+    text-align: center;
+}
+.aside_one li a:hover{
+    color: red;
+}
+
+/* 登录弹出框 */
+#box{
+    width:360px;
+    height:302px;
+    padding:30px 60px;
+    background:white;
+    display:none;
+    z-index:999;
+	position:fixed;
+    top: 29%;
+    left: 31%;
+}
+
+#boxDeng,#box_app{
+    width:180px;
+    height:19px;
+    padding-top:1px;
+    border:0;
+    background: #fff;
+    font-size:18px;
+    float: left;
+    margin-bottom:25px;
+    outline: none;
+}
+#boxDeng{
+    color: #cf1d1b;
+}
+#use{
+    width:360px;
+    height:100;
+    padding:18px 0 10px 0;
+}
+#usename{
+    width:338px;
+    height:43px;
+    padding:0 10px;
+}
+#usepws{
+    margin-top:10px;
+    width:338px;
+    height:43px;
+    padding:0 10px;
+}
+
+/* 短信快捷登录 */
+
+#phone{
+	width:338px;
+	height:43px;
+	padding:0 10px;
+}
+#yanzhengma{
+	margin-top: -11px;
+	width:338px;
+	height:43px;
+	padding:0 10px;
+	margin-bottom:10px;
+}
+#fasong{
+	width:114px;
+	height:33px;
+	padding:1px 6px;
+	background: #FFFFFF;
+	border:none;
+	border-left:1px solid #dadada;
+	position:absolute;
+    margin-top: -39px;
+    margin-left: 247px;
+	color:#777;
+	cursor: pointer;
+	outline:none;
+}
+
+
+
+
+
+#checkbox{
+    width:360px;
+    height:21px;
+    padding:10px 0;
+    line-height:21px;
+}
+#check{
+    width: 18px;
+    height:18px;
+    font-size:18px;
+    float: left;
+    margin-top:1%;
+    margin-right:2%;
+}
+#checkbox i{
+    float: left;
+    color: #333;
+}
+#checkbox a{
+    color: #cf1d1b;
+    float:right;
+}
+#butD{
+    width:360px;
+    height:45px;
+    background: #cf1d1b;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    border:none;
+}
+#zuihou{
+    width:360px;
+    height:38px;
+    padding-top:19px;
+}
+#zuihou a{
+    display: block;
+    width:38px;
+    height:38px;
+    margin-right:23px;
+    float: left;
+}
+.icon-weibo2,.icon-qq,.icon-weixin-copy{
+    font-size:38px;
+    color: #ccc;
+}
+#zuihou a:nth-child(4){
+    width:108px;
+    height:38px;
+    float:right;
+    margin-right:0;
+    color: #cf1d1b;
+    font-size:16px;
+    line-height:38px;
+}
+#duanxin{
+	display: none;
+	/* position:relative; */
+	
+}
+/* 短信快捷登录 */
+/* .box2-xin{
+	width:360px;
+	height:303px;
+	background: #FFFFFF;
+	padding:30px 60px;
+	```````` display:none;
+}
+.box2-xin3{
+	width:360px;
+	height:18px;
+	margin-top:2px;
+}
+.box2-xin1{
+	display:block;
+	width:179px;
+	height:18px;
+	border-right: solid 1px #adadad;
+	color: #777;
+	float:left;
+	font-size:100%;
+	line-height:18px;
+	text-align:center;
+}
+.box2-xin2{
+	display:block;
+	width:180px;
+	height:18px;
+	color: #777;
+	float:left;	
+	font-size:18px;	
+	line-height:18px;
+	text-align:center;
+	color: #cf1d1b;
+}
+.box2-xin4{
+	width:360px;
+	height:263px;
+	padding-top:25px;
+}
+.box2-xin5{
+	width:360px;
+    height: 186px;
+	position: relative;
+	margin-bottom:26px;
+}
+#box2name{
+	width:338px;
+	height:43px;
+	padding:0 10px;
+	border:none;
+	line-height:43px;
+	background: #FFFFFF;
+	border: solid 1px #dadada;
+}
+#box2but{
+	width:114px;
+	height:33px;
+	padding:1px 6px;
+	background: #FFFFFF;
+	border:none;
+	border-left:1px solid #dadada;
+	position:absolute;
+	top: 7px;
+	left: 245px;
+	color:#777;
+	cursor: pointer;
+	outline:none;
+}
+#box2pws{
+	width:338px;
+	height:43px;
+	padding:0 10px;
+	border:none;
+	margin-top:10px;
+	border: solid 1px #dadada;
+	line-height:43px;
+}
+.box2-xin6{
+	width:360px;
+	height:21px;
+	padding:10px 0 10px;
+}
+#box2-xin7{
+	width:18px;
+	height:18px;
+	float:left;
+	margin-right:5px;
+	color:#3333;
+}
+.box2-xin6 i{
+	float:left;
+}
+.box2-xin6 a{
+	float: right;
+	color: #CF1D1B;
+}
+#box2buts{
+	width:360px;
+	height:45px;
+	padding:0 6px;
+	background:#CF1D1B;
+	border:none;
+	font-size:20px;
+	color:#fff;
+}
+.weiboqq a{
+	margin-right:23px;
+	float:left;
+}
+.weiboqq a:nth-child(4){
+	margin:0;
+	display: block;
+	height:41px;
+	line-height:41px;
+	float:right;
+	color:#CF1D1B;
+} */
+
+
+
+/* 住粗框 */
+#zhuce{
+	width:360px;
+	height:410px;
+	padding:30px 60px;
+	background:white;
+	display:none;
+	position:fixed;
+	z-index: 997;
+}
+.zhu_one{
+	width:360px;
+	height:22px;
+	background: white;
+	font-size:18px;
+	line-height:22px;
+	text-align:center;
+	padding-bottom:18px;
+}
+.zhu_two{
+	width: 360px;
+	height:265px;
+	background:white;
+	vertical-align: baseline;
+	position:relative;
+	margin-bottom: 10px;
+}
+.zhu_two img{
+	width:80px;
+	height:33px;
+	position:absolute;
+	top: 6px;
+	right: 1px;
+}
+#zhuyan{
+	width:338px;
+	height:43px;
+	padding:0 10px;
+	line-height: 43px;
+	border: 1px solid #dadada;
+	font-size: 14px;
+	background: transparent;
+}
+#zhushou{
+	width:338px;
+	height:43px;
+	padding:0 10px;
+	margin-top:10px;
+	border:none;
+	border:1px solid #dadada;
+	line-height:43px;
+}
+#zhubut{
+	width:114px;
+	height:33px;
+	padding:0 6px;
+	position:absolute;
+	top: 60px;
+	right: 1px;
+	border: none;
+	border-left:1px solid #dadada;
+	background: #FFFFFF;
+	outline:none;
+	color:#bbb;
+}
+#zhu_two3{
+	width:338px;
+	height:43px;
+	padding:0 10px;
+	border:none;
+	border: 1px solid #dadada;
+	margin-top:10px;
+}
+#zhu_two4,#zhu_two5{
+	width:338px;
+	height:43px;
+	padding:0 10px;
+	border:none;
+	border: 1px solid #dadada;
+	margin-top:10px;
+}
+#zhu_two6{
+	width:18px;
+	height:18px;
+	float:left;
+	margin-top:1%;
+}
+.kkk{
+	display: block;
+	width:360px;
+	height:21px;
+	padding:10px 0;
+}
+.kk1{
+	color:#CF1D1B;
+}
+#zhu_two7{
+	width:348px;
+	height:43px;
+	padding:1px 6px;
+	line-height: 43px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	background:#CF1D1B;
+	border:none;
+	outline:none;
+}
